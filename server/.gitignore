@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtualenv
+env/
+venv/
+ENV/
+*.env
+*.venv
+.Python
+
+# Django
+*.log
+media/
+staticfiles/
+local_settings.py
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Pip
+pip-wheel-metadata/
+*.lock
+
+# Compiled translation files
+*.mo
+
+# Render / Deployment (optional)
+*.pid
