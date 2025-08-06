@@ -34,7 +34,7 @@ SECRET_KEY = "django-insecure-h5wtgsg$tmp(5pe4f%-rg12h6humkj3@mk-xtg57i__fc+6#fu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["django-next-js-ecommerce.onrender.com", "localhost"]
 
 AUTH_USER_MODEL = "users.CustomUser"
 
@@ -82,6 +82,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
 ]
 
 ROOT_URLCONF = "config.urls"
